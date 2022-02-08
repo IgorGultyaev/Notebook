@@ -40,8 +40,8 @@ public class Main {
         System.out.println();
         System.out.println("Печать всех задач");
         int pos = 1;
-        for (Task task: list
-             ) {
+        for (Task task : list
+        ) {
             System.out.print(pos + ": ");
             pos++;
             System.out.println(task);
@@ -54,12 +54,12 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String chois = scanner.nextLine();
         int choisInt = dateVerification(chois, 1, list.size());
-         if (choisInt == -1) {
-             System.out.println("Такой записи нет");
-         } else {
-             list.remove(choisInt-1);
-             System.out.println("Завпись удалена");
-         }
+        if (choisInt == -1) {
+            System.out.println("Такой записи нет");
+        } else {
+            list.remove(choisInt - 1);
+            System.out.println("Завпись удалена");
+        }
         return list;
     }
 

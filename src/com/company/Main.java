@@ -57,7 +57,7 @@ public class Main {
         if (choisInt == -1) {
             System.out.println("Такой записи нет");
         } else {
-            list.remove(choisInt - 1);
+            list.remove(choisInt-1);
             System.out.println("Завпись удалена");
         }
         return list;

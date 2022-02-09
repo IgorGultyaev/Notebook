@@ -59,6 +59,7 @@ public class Main {
         } else {
             list.remove(choisInt-1);
             System.out.println("Завпись удалена");
+
         }
         return list;
     }
